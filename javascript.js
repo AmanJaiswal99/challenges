@@ -18,6 +18,3 @@ function addcat() {
     div.appendChild(picture);
 }
 
-function removecat(){
-    document.getElementById('cat').remove();
-}

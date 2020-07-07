@@ -11,7 +11,6 @@ function input() {
 function reset() {
     document.getElementById('bjp').remove();
 }
-
 function addcat() {
     var picture = document.createElement("img");
     var div = document.getElementById("cat");

@@ -15,10 +15,11 @@ function reset() {
 function addcat() {
     var picture = document.createElement("img");
     var div = document.getElementById("cat");
+    div.setAttribute('id', 'billi');
     picture.src = "https://i.gifer.com/7Eyy.gif";
     div.appendChild(picture);
 }
 
 function removecat(){
-    document.getElementById('cat').remove();
+    document.getElementById('billi').remove();
 }

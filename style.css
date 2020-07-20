@@ -37,3 +37,17 @@
     padding: 10px;
     box-shadow: black 0px 10px 50px;
 }
+.container-3{
+    border: solid black;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.flex-box-color{
+  border: solid black;
+  padding: 5px;
+  display: flex;
+
+}
